@@ -1,0 +1,6 @@
+# 《图案生存战》运行依赖（pygame 2.x API）
+#
+# 官方 pygame 目前未提供 Python 3.14 的预编译包；
+# pygame-ce 是 pygame 的社区版本分支，import pygame 与 API 完全兼容，
+# 且对 Python 3.8 ~ 3.14 均有预编译包，故统一使用 pygame-ce：
+pygame-ce>=2.5.0
